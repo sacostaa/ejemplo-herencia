@@ -1,0 +1,25 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author Estudiante
+ */
+public class gato extends Animal {
+
+    public gato(String nombre, String raza) {
+        super(nombre, raza);
+    }
+    
+    
+    @Override
+    public void hacersonido(){
+        System.out.println("miau");
+    }
+    
+    
+    
+}
